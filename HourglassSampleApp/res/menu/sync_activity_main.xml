@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_sync"
+          android:title="@string/actionbar_defaultTitle"
+          android:icon="@drawable/ic_action_logo_sync2arrows"
+          android:showAsAction="always" />
+          
+    <item android:id="@+id/action_switchStorage"
+          android:title="@string/actionbar_defaultTitle"
+          android:icon="@drawable/ic_action_logo_switch"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/action_clean"
+          android:title="@string/actionbar_defaultTitle"
+          android:icon="@drawable/ic_action_logo_delete"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/action_info"
+          android:title="@string/actionbar_defaultTitle"
+          android:icon="@drawable/ic_action_logo_info"
+          android:showAsAction="always" />
+          
+<!--       Settings     -->
+    <item android:id="@+id/action_cfg_inclfilter"
+          android:title="Configure incl. filter"
+          android:showAsAction="collapseActionView" />
+    
+	<item android:id="@+id/action_cfg_exclfilter"
+          android:title="Configure excl. filter"
+          android:showAsAction="collapseActionView" />
+	
+	<item android:id="@+id/action_cfg_endpoint"
+          android:title="Configure endpoint"
+          android:showAsAction="collapseActionView" />
+	
+	<item android:id="@+id/action_cfg_subfolder"
+          android:title="Configure sub-folder name"
+          android:showAsAction="collapseActionView" />
+	
+		<item android:id="@+id/action_resetcfg"
+          android:title="Reset config."
+          android:showAsAction="collapseActionView" />
+
+</menu>

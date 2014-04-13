@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hourglass Sample Client</string>
+    <string name="actionbar_defaultTitle">Hourglass</string>
+    <string name="menu_settings">Settings</string>
+    <string name="filelist_storageEmpty">No files to display here. Please checkout.\n\n(Sync status is cleaned at startup)</string>
+    <string name="hourglass_web_service_endpoint">Hourglass web service endpoint</string>
+    <string name="connection_timeout_revision_check">Connection Timeout Revision Check</string>
+    <string name="connection_timeout_for_update">Connection Timeout for Update</string>
+    <string name="current_storage_mode">Storage mode</string>
+    <string name="subfolder_name">Subfolder</string>
+    <string name="include_regex_filter">Include Regex Filter</string>
+    <string name="exclude_regex_filter">Exclude Regex Filter</string>
+    <string name="infos_title">Infos.</string>
+    <string name="info_regex_empty">.*</string>
+    <string name="none_uppercase">NONE</string>
+    <string name="app_mysubdir_name">MySubDir</string>
+    <string name="title_synchronization_demo">HourglassLibrary Client Sample</string>
+    <string name="title_sync_failed_callback">Sync Failed [CallBack]</string>
+    <string name="title_sync_canceled_callback">Sync canceled [CallBack]</string>
+    <string name="message_synchronization_failed_cause">"Synchronization Failed, cause : "</string>
+    <string name="message_synchronization_canceled">Synchronization canceled</string>
+    <string name="message_you_are_already_up_to_date_local_revision">"You are already up to date\n\nLocal revision "</string>
+    <string name="title_already_synced_callback">Already synced [CallBack]</string>
+    <string name="title_sync_finished_callback">Sync finished [CallBack]</string>
+    <string name="message_local_revision_is_now">"Local revision is now "</string>
+    <string name="message_timestamp_is">"Timestamp is "</string>
+    <string name="configure_endpoint">Configure endpoint</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_regular_expression">Enter regular expression</string>
+    <string name="warning_filter_regex_include_change">WARNING: Filter Regex Include change implies a new checkout from server. Do you want to continue?</string>
+    <string name="apply_and_checkout">Apply and checkout</string>
+    <string name="warning_filter_regex_exclude_change">WARNING: Filter Regex Exclude change implies a new checkout from server. Do you want to continue?</string>
+    <string name="switch_storage_internal_sdcard">Switch storage INTERNAL/SDCARD</string>
+    <string name="warning_storage_mode_switching">WARNING: Storage mode switching implies a new checkout from server. Do you want to continue?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="toast_storage_mode_changed_pre">"Storage mode "</string>
+    <string name="clean_synchronization_status">Clean synchronization status</string>
+    <string name="prevent_cleaning">This will delete synced files and local revision information. Continue?</string>
+    <string name="sync_status_already_cleaned">Sync status already cleaned :)</string>
+    <string name="close">Close</string>
+    <string name="reset_configuration">Reset Configuration</string>
+    <string name="warning_reset_implies">WARNING: A reset implies a new checkout from server. Do you want to continue?</string>
+    <string name="enter_new_sub_folder_name">Enter new sub-folder name</string>
+    <string name="warning_changing_sub_folder_name">WARNING: changing sub-folder name implies an automatic clean.</string>
+    <string name="apply_and_clean">Apply and clean</string>
+
+</resources>

@@ -1,0 +1,7 @@
+// http://yuml.me/6450bb09
+[Synchronization|+ static checkout(Activity activity;SynchronizationListener syncHandler;SyncConfig syncConfig);+ static synchronize(Activity activity;SynchronizationListener syncHandler; Integer currentClientVersion;SyncConfig syncConfig) : void]
+[Synchronization]++->[SyncConfig|- serverUrl : string;- filterRegexInclude : string;- filterRegexExclude : string;- syncOnTestResources : boolean;- syncStorageMode : SyncStorageMode;- storageSubfolder : string;- downloadingMessage : string;- cancelMessage : string;- publishingUpdateMessage : string]
+[SyncStorageMode : enum|INTERNAL;SDCARD],
+[SyncConfig]++->[SyncStorageMode : enum]
+[Synchronization]++->[ISynchronizationListener|onSynchronizationFailed(SyncException e) : void;onSynchronizationFinished(int serverLatestRevision; long serverLatestRevisionTimestamp) : void;onSynchronizationCancel() : void]
+[ISynchronizationListener]^-.-[YourSynchronizeListener...]
